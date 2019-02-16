@@ -10,7 +10,7 @@ body{
   width:100vw;
 }
 #container{
-  width:  auto;
+  width:  600px;
   height: auto;
   margin: 0px auto;
   background-color: lightGray;

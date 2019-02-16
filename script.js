@@ -33,7 +33,6 @@ function answer() {
     }
 }
 function cl(){
-    console.log("here");
     let ans = document.getElementById("res").innerText;
     if (flag === 1){
       document.getElementById("res").innerText = "";

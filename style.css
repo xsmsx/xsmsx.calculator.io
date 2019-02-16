@@ -1,16 +1,23 @@
 body{
   font-family: 'Montserrat', sans-sans-serif;
-  background-color: black;
+  background-color: white;
+  margin: 0px auto;
 }
-
+@media only screen and (max-width: 768px) and (orientation: portrait){
+  width:100vw;
+}
+@media only screen and (max-width: 768px) and (orientation: landscape){
+  width:100vw;
+}
 #container{
   width:  auto;
   height: auto;
-  margin: 20px auto;
+  margin: 0px auto;
+  background-color: white;
 }
 #calculator{
   width:  600px;
-  height: 810px;
+  height: 820px;
   margin: 0px auto;
   background-color: lightGray;
   position: relative;
